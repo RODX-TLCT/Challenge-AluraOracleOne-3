@@ -1,0 +1,271 @@
+@charset "utf-8";
+/*css document*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inconsolata', monospace;
+
+    /*flex*/
+    display: flex;
+    flex-flow: row wrap;
+}
+
+::-webkit-scrollbar {
+    /*este estilo permite eliminar srollbar*/
+    display: none;
+    scrollbar-width: 0;
+}
+
+/* textos */
+
+.titulo-primario {
+    margin: 20px 0 ;
+    font-size: 4em;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.titulo-secundario { 
+    font-size: 3.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.titulo-terciario { 
+    font-size: 2em;
+}
+
+.titulo-cuarto {
+    font-size: 1.5em;
+    font-style: italic;
+}
+
+.text {
+    font-size: 1.3em;
+    text-align: justify;
+    font-weight: lighter;
+}
+
+
+/* estructura */
+
+aside {
+    width: 15%;
+    height: 100%; 
+    z-index: 1;
+}
+
+.navegador {
+    background-color: #0c0c0c;
+
+    width: 15%;
+    height: 100%;
+    text-align: center;
+    position: fixed;
+    top: 0;
+
+    /*flex*/
+    display: flex;
+    flex-flow: column wrap ;
+    align-items: center;
+    justify-content: center;
+}
+
+.navegador li{
+    height: 2;
+    padding: 1em;
+    margin: 0.5em 0;
+    color:white;
+    
+}
+
+li p{
+    text-transform: uppercase;
+    text-align: center;
+    
+}
+
+.logoRodx {
+    width: 85%;
+}
+
+.iconos-navegador {
+    width: 30%;
+}
+
+.copyright{
+    position: fixed;
+    bottom: 2em;
+    font-weight: bolder;
+    color: #520c0c;
+}
+
+.copyright::first-letter{
+    font-size: 0.7em;
+}
+
+main {
+    width: 85%;
+
+    /*flex*/
+    display: flex;
+    flex-flow: row wrap;
+    
+}
+
+.inicio {
+    width: 100%;
+    color: white;
+    height: 813px;
+    background-color: #520c0c;
+}
+
+.banner {
+    opacity:50%;
+    filter: blur(3px);
+    transition: opacity 0.5s ease-in, filter 0.5s ease-in;
+}
+
+.banner img{
+    width: 100%;
+    position: relative;
+    top: 0px;
+    z-index: -1;
+}
+
+.banner:hover {
+    opacity: 70%;
+    filter: blur(1px);
+    transition: opacity 0.5s ease-in, filter 500ms ease-in;
+}
+
+.informacion-banner {
+    width: 80%;
+    
+    margin: 0 50px;
+    position: relative;
+    left: 5%;
+    top: -600px;
+}
+
+.informacion-banner h2, .informacion-banner p{
+    margin: 20px 50px;
+}
+
+.titulo-seccion{
+    width: 100%;
+    height: 600px;
+    background: linear-gradient(#0c0c0c,#141414) ;
+    color: #910101;
+    font-size: larger;
+    font-weight: bolder;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.Sobre-mi {
+    background-color: #141414;
+    color: white;
+    width: 50%;
+}
+
+.cuerpo-seccion{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: start;
+}
+
+.informacion-personal{
+    width: 100%;
+    margin: 10px 20px;
+
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+.informacion-personal h2 {
+    width: 35%;
+    text-align: center;
+}
+
+.informacion-personal p{
+    width: 60%;
+}
+
+.informacion-personal strong{
+    color: #910101;
+    font-weight: bold;
+}
+
+.informacion-personal strong:first-child{
+    text-transform: uppercase;
+}
+
+
+.skills { 
+    width: 50%;
+    margin: 10px;
+}
+
+.habilidades{
+    padding: 15px;
+}
+
+.progress-container{
+    width: 100%;
+    height: 5px;
+    background-color: #252525;
+    border-radius: 13px;
+    margin-bottom: 15px;
+
+    display: flex;
+    align-items: center;
+}
+
+.progressbar{
+    height: 5px;
+    background-color: #910101;
+    border-radius: 13px;
+}
+
+.frontend{
+    width: 45%;
+}
+
+.backend, .database{
+    width: 15%;
+}
+
+.liderazgo{
+    width: 85%;
+}
+
+.empatia{
+    width: 90%;
+}
+
+.creatividad{
+    width: 100%;
+}
+
+.trabajo-equipo{
+    width: 70%;
+}
+
+.imagen-perfil {
+    width: 50%;
+}
+
+.imagen-perfil img{
+    width: 150%;
+}
