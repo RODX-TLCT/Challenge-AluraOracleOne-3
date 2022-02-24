@@ -27,10 +27,10 @@
                         <img class="iconos-navegador" src="ICONS/1x/perfil-icon.png" alt="icono_de_perfil">
                         <p>sobre mi</p>
                     </li>
-                    <li>
+                <!--    <li>
                         <img class="iconos-navegador" src="ICONS/1x/proyecto-icon.png" alt="icono_de_engrane">
                         <p>proyectos</p>
-                    </li>
+                    </li>-->
                     <li>
                         <img class="iconos-navegador" src="ICONS/1x/contacto-icon.png" alt="icono_de_contacto">
                         <p>contacto</p>
@@ -43,6 +43,7 @@
         </aside>
 
         <main class="contenido">
+           
             <section class="inicio">
                 <div class="banner">
                     <img src="IMG/Banner.jpg" alt="Banner-pages">
@@ -53,9 +54,11 @@
                     <p class="text">Bienvenido a mi portafolio digital, yo soy RODX y quiero presentarte mis proyectos.</p>
                 </div>
             </section>
-            <div class="titulo-seccion">
+           
+            <div class="titulo-seccion titulo-sobre-mi">
                 <h2 class="titulo-secundario">sobre mi</h2>
             </div>
+           
             <section class="Sobre-mi">
                 <div class="cuerpo-seccion">
                     <div class="informacion-personal">
@@ -117,14 +120,36 @@
                         </div>
                     </div>
             </section>
-                <div class="imagen-perfil">
-                    <img src="IMG/perfil.jpg" alt="foto-perfil-rodx">   
-                </div>
-            <section class="Proyectos">
-                <h2 class="titulo-secundario">proyectos</h2>
+           
+            <section class="imagen-perfil">
+                <img src="IMG/perfil.jpg" alt="foto-perfil-rodx"> 
             </section>
-            <section class="Contacto">
-                <h2 class="titulo-secundario">contacto</h2>
+
+<!--        <div class="titulo-seccion">
+                <h2 class="titulo-secundario">proyectos</h2>
+            </div>        
+            <section class="proyectos">
+            </section> -->
+            
+            <div class="titulo-seccion titulo-contacto">
+                <h2 class="titulo-secundario">Contacto</h2>
+            </div>
+            <section class="contacto">
+                <p class="text">Si tienes alguna pregunta sobre mis servicios, o simplemente quieres saludarme, no dudes en contactarme. A continuación encontra un formulario para ponernos pronto en contacto.</p>
+
+                <div class="formulario">
+                    <form action="">
+                        <input type="text" class="ingresar-texto nombre" placeholder="Nombre">
+                        <input type="email" class="ingresar-texto correo-electronico" placeholder="email@dominio.com">
+                        <input type="text" class="ingresar-texto asunto" placeholder="tema">
+                        <textarea class="ingresar-texto area-texto" placeholder="mensaje"></textarea>
+                        <input type="submit" class="ingresar-texto boton-enviar" value="Enviar">
+                    </form>
+                </div>
+                
+                <div class="logo-final">
+                    <img class="logoRodx" src="ICONS/1x/logoRodxV2-icon.png" alt="Logo-RODX(wolf)">
+                </div>
             </section>
         </main>
 
