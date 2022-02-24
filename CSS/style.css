@@ -213,7 +213,7 @@ main {
 
 
 .skills { 
-    width: 50%;
+    width: 45%;
     margin: 10px;
 }
 
@@ -262,8 +262,29 @@ main {
     width: 70%;
 }
 
+.estudios {
+    width: 50%;
+}
+
+.estudios h2{
+    margin-bottom: 10px;
+}
+
+.carrera{
+    padding: 0 1em;
+    margin-bottom: 10px;
+    font-size: 1em;
+}
+
+.certificacion {
+    font-size: 1em;
+    padding: 0 1em ;
+    margin: 0.5em;
+}
+
 .imagen-perfil {
     width: 50%;
+    background-color: #141414;
 }
 
 .imagen-perfil img{
