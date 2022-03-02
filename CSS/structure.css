@@ -1,0 +1,73 @@
+/*  
+develop and edited by RODX 
+Ⓒcopyright - RODX 2022
+css document
+Structure Document
+*/
+
+@charset "utf-8";
+
+:root {
+/* colors */
+
+--color-red-1: #bf1010 ;
+--color-red-2: #730202 ;
+--color-red-3: #400101 ;
+--color-red-4: #210101;
+--color-black-1: #0c0c0c;
+--color-black-2: #141414;
+--color-black-3: #1a1a1a;
+--color-white: #f1f1f1;
+
+/* font styles*/
+
+--font-text: 'Inconsolata', monospace;
+--font-weight-header: 700;
+--font-weight-titles: 500;
+--font-weight-subtitles: 300;
+--font-weight-text: 200;
+--font-style-subtitles: italic;
+
+/* inputs style */
+
+--border-radius-padron: 13px;
+}
+
+/* Structure dad */
+
+body {
+    font-family: var(--font-text);
+    /*flex*/
+    display: flex; flex-flow: row wrap;
+}
+
+/*este estilo permite eliminar srollbar*/
+::-webkit-scrollbar {
+    display: none;
+    scrollbar-width: 0;
+}
+
+main {
+    width: 85%;
+
+    /*flex*/
+    display: flex;
+    flex-flow: row wrap;
+}
+
+/* textos */
+.titulo-primario {
+    margin: 20px 0; font-size: 4em; font-weight: var(--font-weight-header); text-transform: uppercase;
+}
+.titulo-secundario { 
+    font-size: 3.5em; font-weight: var(--font-weight-titles); text-transform: uppercase; 
+}
+.titulo-terciario { 
+    font-size: 2em;
+}
+.titulo-cuarto {
+    font-size: 1.5em; font-style: var(--font-style-subtitles);
+}
+.text {
+    font-size: 1.3em; text-align: justify; font-weight: var(--font-weight-text);
+}

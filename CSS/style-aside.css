@@ -1,0 +1,63 @@
+/*  
+    develop and edited by RODX 
+    Ⓒcopyright - RODX 2022
+    css document
+    Style document
+*/
+
+/* --------------- Structure aside --------------- */
+
+aside {
+    width: 15%;
+    height: 100%; 
+    z-index: 1;
+}
+
+.navegador {
+    background-color: #0c0c0c;
+
+    width: 15%;
+    height: 100%;
+    text-align: center;
+    position: fixed;
+    top: 0;
+
+    /*flex*/
+    display: flex;
+    flex-flow: column wrap ;
+    align-items: center;
+    justify-content: center;
+}
+
+.navegador li{
+    height: 2;
+    padding: 1em;
+    margin: 0.5em 0;
+    color:white;
+    
+}
+
+li p{
+    text-transform: uppercase;
+    text-align: center;
+    
+}
+
+.logoRodx {
+    width: 85%;
+}
+
+.iconos-navegador {
+    width: 30%;
+}
+
+.copyright{
+    position: fixed;
+    bottom: 2em;
+    font-weight: bolder;
+    color: #520c0c;
+}
+
+.copyright::first-letter{
+    font-size: 0.7em;
+}

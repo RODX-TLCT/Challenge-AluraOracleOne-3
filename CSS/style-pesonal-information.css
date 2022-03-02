@@ -1,0 +1,152 @@
+/*  
+    develop and edited by RODX 
+    Ⓒcopyright - RODX 2022
+    css document
+    Style document
+*/
+
+/* --------------- Structure pesronal information --------------- */
+
+.titulo-seccion{
+    width: 100%;
+    height: 200px;
+    color: #910101;
+    font-size: larger;
+    font-weight: bolder;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo-sobre-mi{
+    background: linear-gradient(#0c0c0c,#141414) 
+}
+
+.Sobre-mi {
+    background-color: #141414;
+    color: white;
+    width: 100%;
+}
+
+.cuerpo-seccion{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: start;
+}
+
+.informacion-personal{
+    width: 100%;
+    margin: 10% 20px;
+
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+.informacion-personal h2 {
+    width: 35%;
+    text-align: center;
+    transform: rotateZ(270deg);
+}
+
+.informacion-personal p{
+    width: 60%;
+}
+
+.informacion-personal strong{
+    color: #910101;
+    font-weight: bold;
+}
+
+.informacion-personal strong:first-child{
+    text-transform: uppercase;
+}
+
+.imagen-perfil {
+    width: 50%;
+    background-color: #141414;
+}
+
+.imagen-perfil img{
+    width: 150%;
+}
+
+.items-personales{
+    width: 50%;
+    margin: 20% 0;
+    padding: 5%;
+
+}
+
+.skills { 
+    width: 100%;
+    margin: 10px;
+}
+
+.habilidades{
+    width: 100%;
+    padding: 15px;
+}
+
+.progress-container{
+    width: 100%;
+    height: 5px;
+    background-color: #252525;
+    border-radius: 13px;
+    margin-bottom: 15px;
+
+    display: flex;
+    align-items: center;
+}
+
+.progressbar{
+    height: 5px;
+    background-color: #910101;
+    border-radius: 13px;
+}
+
+.frontend{
+    width: 45%;
+}
+
+.backend, .database{
+    width: 15%;
+}
+
+.liderazgo{
+    width: 85%;
+}
+
+.empatia{
+    width: 90%;
+}
+
+.creatividad{
+    width: 100%;
+}
+
+.trabajo-equipo{
+    width: 70%;
+}
+
+.estudios {
+    width: 100%;
+}
+
+.estudios h2{
+    margin-bottom: 10px;
+}
+
+.carrera{
+    padding: 0 1em;
+    margin-bottom: 10px;
+    font-size: 1em;
+}
+
+.certificacion {
+    font-size: 1em;
+    padding: 0 1em ;
+    margin: 0.5em;
+}

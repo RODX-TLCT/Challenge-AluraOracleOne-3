@@ -1,0 +1,77 @@
+/*  
+    develop and edited by RODX 
+    Ⓒcopyright - RODX 2022
+    css document
+    Style document
+*/
+
+/* --------------- Structure contact --------------- */
+
+.titulo-contacto{
+    background: linear-gradient(#141414 , #0c0c0c);
+}
+
+.contacto{ 
+    background-color: #0c0c0c;
+    color: white;
+
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-items: center;
+}
+
+.contacto p {
+    padding: 0 100px;
+    text-align: center;
+}
+
+.formulario {
+    width: 40%;
+    margin: 40px;
+}
+
+form {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.ingresar-texto{
+    margin: 10px;
+    padding: 15px;
+    height: 50px;
+    background-color: #0c0c0c;
+    border: solid #520c0c 2px;
+    border-radius: 5px;
+    color: white
+}
+
+.nombre {
+    width: 46%;
+}
+
+.correo-electronico {
+    width: 46%;
+}
+
+.asunto {
+    width: 96%;
+}
+
+textarea {
+    width: 96%;
+    height: 50%;
+    min-height: 200px;
+    box-sizing: content-box;
+}
+
+.boton-enviar {
+    width: 300px;
+    margin: 0 auto;
+    font-size: large;
+}
+
+.logo-final { 
+    width: 40%;
+    margin: 40px;
+}

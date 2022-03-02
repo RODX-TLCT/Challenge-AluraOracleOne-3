@@ -1,0 +1,43 @@
+/*  
+    develop and edited by RODX 
+    Ⓒcopyright - RODX 2022
+    css document
+    Style document
+*/
+
+/* --------------- Structure home --------------- */
+
+.inicio {
+    width: 100%;
+    color: white;
+    background-color: #520c0c;
+}
+
+.banner {
+    opacity:50%;
+    filter: blur(3px);
+    transition: opacity 0.5s ease-in, filter 0.5s ease-in;
+}
+
+.banner img{
+    width: 100%;
+    z-index: -1;
+}
+
+.banner:hover {
+    opacity: 70%;
+    filter: blur(1px);
+    transition: opacity 0.5s ease-in, filter 500ms ease-in;
+}
+
+.informacion-banner {
+    width: 80%;
+    
+    margin: 0 50px;
+    position: absolute;
+    top: 30%;
+}
+
+.informacion-banner h2, .informacion-banner p{
+    margin: 20px 50px;
+}
