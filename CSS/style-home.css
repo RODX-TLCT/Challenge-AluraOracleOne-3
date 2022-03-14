@@ -21,7 +21,6 @@
 
 .banner img{
     width: 100%;
-    z-index: -1;
 }
 
 .banner:hover {
@@ -35,9 +34,36 @@
     
     margin: 0 50px;
     position: absolute;
-    top: 30%;
+    top: 50%;
 }
 
 .informacion-banner h2, .informacion-banner p{
     margin: 20px 50px;
+}
+
+@media screen and (max-width:1024px) {
+
+    .informacion-banner {
+        width: 60%;
+        margin: 0 3em;
+        position: absolute;
+        top: 15%;
+    }
+    
+    .informacion-banner h1{
+        font-size: 3em;
+    }
+
+    .informacion-banner h2{
+        font-size: 2em;
+    }
+
+    .informacion-banner p{
+        font-size: 0.8em;
+    }
+
+    .informacion-banner h2, .informacion-banner p{
+        margin: 20px 50px;
+    }
+
 }

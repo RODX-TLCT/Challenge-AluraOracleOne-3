@@ -3,7 +3,7 @@
     <head>
         <!--meta-->
         <meta charset="UTF-08">
-        <meta name="viewport" content="width=device-width">
+        <meta name="viewport" content="width=device-width" Initial-scale="1.0">
         <!--stylesheets-->
         <link rel="icon" href="ICONS/1x/logoRodxV2-icon.png" type="image/x-icon">
         <link rel="stylesheet" href="CSS/reset.css" type="text/css">
@@ -18,41 +18,43 @@
     </head>
 
     <body>
-        <aside class="aside-navegador">
-            <nav class="navegador">
-                <ul>
-                    <li>
-                        <img class="logoRodx" src="ICONS/1x/logoRodxV2-icon.png" alt="Logo-RODX(wolf)">
-                    </li>
-                    <li>
-                        <img class="iconos-navegador" src="ICONS/1x/inicio-icon.png" alt="icono_de_inicio">
-                        <p>inicio</p>
-                    </li>
-                    <li>
-                        <img class="iconos-navegador" src="ICONS/1x/perfil-icon.png" alt="icono_de_perfil">
-                        <p>sobre mi</p>
-                    </li>
-                <!--    
-                    <li>
-                        <img class="iconos-navegador" src="ICONS/1x/proyecto-icon.png" alt="icono_de_engrane">
-                        <p>proyectos</p>
-                    </li>-->
-                    <li>
-                        <img class="iconos-navegador" src="ICONS/1x/contacto-icon.png" alt="icono_de_contacto">
-                        <p>contacto</p>
-                    </li>
-                </ul>
-                <div class="copyright">
-                    <P>Ⓒcopyright - RODX 2022</P>
-                <div>
-            </nav>
-        </aside>
 
+        <header>
+            <section class="aside-navegador">
+                <nav class="navegador">
+                    <ul>
+                        <li>
+                            <a href="index.html"><img class="logoRodx" src="ICONS/1x/logoRodxV2-icon.png" alt="Logo-RODX(wolf)"></a>
+                        </li>
+                        <li>
+                            <a href="#seccioninicio"><img class="iconos-navegador" src="ICONS/1x/inicio-icon.png" alt="icono_de_inicio"></a>
+                            <p>inicio</p>
+                        </li>
+                        <li>
+                            <a href="#seccionsobremi"><img class="iconos-navegador" src="ICONS/1x/perfil-icon.png" alt="icono_de_perfil"></a>
+                            <p>sobre mi</p>
+                        </li>  
+                        <li>
+                            <a href="#seccionproyectos"><img class="iconos-navegador" src="ICONS/1x/proyecto-icon.png" alt="icono_de_engrane"></a>
+                            <p>proyectos</p>
+                        </li>
+                        <li>
+                            <a href="#seccioncontacto"><img class="iconos-navegador" src="ICONS/1x/contacto-icon.png" alt="icono_de_contacto"></a>
+                            <p>contacto</p>
+                        </li>
+                    </ul>
+                    <div class="copyright">
+                        <P>Ⓒcopyright - RODX 2022</P>
+                    <div>
+                </nav>
+            </section>
+        </header>
         <main class="contenido">
            
-            <section class="inicio">
+            <section class="inicio" id="seccioninicio">
                 <div class="banner">
-                    <img src="IMG/banner-pc.jpg" alt="Banner-pages">
+                    <!-- <img id="banner-inicio pc" src="IMG/banner-pc.jpg" alt="Banner-pages"> -->
+                    <img id="banner-inicio smartphone" src="IMG/banner-smartphone.jpg" alt="Banner-pages">
                 </div>
                 <div class="informacion-banner">
                     <h1 class="titulo-primario">rodx - portafolio de proyectos</h1>
@@ -61,10 +63,9 @@
                 </div>
             </section>
            
-            <section class="titulo-seccion titulo-sobre-mi">
+            <section class="titulo-seccion titulo-sobre-mi" id="seccionsobremi">
                 <h2 class="titulo-secundario">sobre mi</h2>
             </section>
-            
             <section class="Sobre-mi">
                 <div class="cuerpo-seccion">
                     <div class="informacion-personal">
@@ -136,16 +137,25 @@
                     </div>
             </section>
 
-<!--        <div class="titulo-seccion">
+            <section class="titulo-seccion">
                 <h2 class="titulo-secundario">proyectos</h2>
-            </div>        
-            <section class="proyectos">
-            </section> -->
+            </section>        
+            <section class="proyectos" id="seccionproyectos">
+                <div class="experiencia-programacion">
+                    <h3 class="titulo-experiencia">
+                        <p class="text experiencia_texto"></p>
+                    </h3>
+                </div>
+                <div class="proyectos-programacion">
+                    <h3 class="titulo-proyectos">
+                        <p class="text proyectos_texto"></p>
+                    </h3>
+                </div>
+            </section> 
             
-            <section class="titulo-seccion titulo-contacto">
+            <section class="titulo-seccion titulo-contacto" id="seccioncontacto">
                 <h2 class="titulo-secundario">Contacto</h2>
             </section>
-
             <section class="contacto">
                 <p class="text">Si tienes alguna pregunta sobre mis servicios, o simplemente quieres saludarme, no dudes en contactarme. A continuación encontra un formulario para ponernos pronto en contacto.</p>
 
@@ -161,11 +171,12 @@
                 
                 <div class="logo-final">
                     <img class="logoRodx" src="ICONS/1x/logoRodxV2-icon.png" alt="Logo-RODX(wolf)">
+                    <P class="text">powered by <a href="https://github.com/XerT64Er">@RODX</a></P>
                 </div>
             </section>
         </main>
 
-        <script src=""></script>
+        <!-- <script src="JS/switchBanner.js"></script> -->
         
     </body>
 </html>

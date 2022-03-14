@@ -7,9 +7,11 @@
 
 /* --------------- Structure aside --------------- */
 
-aside {
+.aside-navegador {
     width: 15%;
     height: 100%; 
+    position: absolute;
+    left: 0%;
     z-index: 1;
 }
 
@@ -60,4 +62,55 @@ li p{
 
 .copyright::first-letter{
     font-size: 0.7em;
+}
+
+@media screen and (max-width:518px) {
+    
+    .aside-navegador {
+        width: auto;
+        height: 10%;
+        position: absolute;
+        top: 0%;
+    }
+
+    .navegador {
+        background-color: #0c0c0c;
+    
+        width: 100%;
+        height: 10%;
+        text-align: center;
+        position: fixed;
+        top: 0;
+    
+        /*flex*/
+        display: flex;
+        flex-flow: row wrap ;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .navegador ul{        
+        display: inline-flex;
+    }
+
+    .navegador li{
+        font-size: 0.6em;
+    }
+  
+    .logoRodx {
+        width: 25%;
+    }
+    
+    .iconos-navegador {
+        width: 50%;
+    }
+
+    .copyright{
+        
+            width: 100%;
+            background-color: var(--color-black-1);
+            position: fixed;
+            bottom: 0;
+            color: #520c0c;
+    }
 }

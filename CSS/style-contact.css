@@ -28,18 +28,19 @@
 
 .formulario {
     width: 40%;
-    margin: 40px;
+    margin: 2em;
 }
 
 form {
     display: flex;
     flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .ingresar-texto{
-    margin: 10px;
-    padding: 15px;
-    height: 50px;
+    margin: 0.5em auto;
+    height: 40px;
     background-color: #0c0c0c;
     border: solid #520c0c 2px;
     border-radius: 5px;
@@ -72,6 +73,45 @@ textarea {
 }
 
 .logo-final { 
-    width: 40%;
-    margin: 40px;
+    width:  40%;
+    margin: 2em;
+}
+
+
+
+.logo-final a{
+    margin: 1em auto;
+    color: var(--color-red-1);
+}
+
+.logo-final .text{
+    margin: 1em auto;
+    color: var(--color-red-1);
+}
+
+@media screen and (max-width: 768px) {
+    form {
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        justify-content: center;
+    } 
+    
+    .formulario {
+        width: 100%;
+        padding: 1em;
+    }
+    
+    .logo-final { 
+        width: 100%;
+        padding: 1em;        
+        align-items: Center;
+        justify-items: center;
+    }
+
+    .logo-final .text{
+        margin: 1em auto;
+        color: var(--color-red-1);
+    }
+
 }

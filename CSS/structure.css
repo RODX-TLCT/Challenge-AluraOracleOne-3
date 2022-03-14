@@ -1,15 +1,15 @@
 /*  
-develop and edited by RODX 
-Ⓒcopyright - RODX 2022
-css document
-Structure Document
+    develop and edited by RODX 
+    Ⓒcopyright - RODX 2022
+    css document
+    Structure Document
 */
 
 @charset "utf-8";
 
 :root {
-/* colors */
 
+/* colors */
 --color-red-1: #bf1010 ;
 --color-red-2: #730202 ;
 --color-red-3: #400101 ;
@@ -20,7 +20,6 @@ Structure Document
 --color-white: #f1f1f1;
 
 /* font styles*/
-
 --font-text: 'Inconsolata', monospace;
 --font-weight-header: 700;
 --font-weight-titles: 500;
@@ -29,14 +28,13 @@ Structure Document
 --font-style-subtitles: italic;
 
 /* inputs style */
-
 --border-radius-padron: 13px;
 }
 
 /* Structure dad */
-
 body {
     font-family: var(--font-text);
+    
     /*flex*/
     display: flex; flex-flow: row wrap;
 }
@@ -48,7 +46,8 @@ body {
 }
 
 main {
-    width: 85%;
+    width: 100%;
+    margin-left: 15%;
 
     /*flex*/
     display: flex;
@@ -70,4 +69,18 @@ main {
 }
 .text {
     font-size: 1.3em; text-align: justify; font-weight: var(--font-weight-text);
+}
+
+@media screen and (min-width: 280px) and (max-width: 518px) {
+    main { 
+         width: 180%;
+         margin-left: 0%;
+    }
+}
+
+@media screen and (min-width: 519px) and (max-width:1024px ) {
+    main { 
+        width: 130%;
+        margin-left: 15%;
+   }
 }
