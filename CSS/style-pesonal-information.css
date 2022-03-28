@@ -5,19 +5,7 @@
     Style document
 */
 
-/* --------------- Structure pesronal information --------------- */
-
-.titulo-seccion{
-    width: 100%;
-    height: 200px;
-    color: #910101;
-    font-size: larger;
-    font-weight: bolder;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+/* --------------- Structure personal information --------------- */
 
 .titulo-sobre-mi{
     background: linear-gradient(#0c0c0c,#141414) 

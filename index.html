@@ -2,7 +2,7 @@
 <html lang="es">
     <head>
         <!--meta-->
-        <meta charset="UTF-08">
+        <meta charset="utf-8">
         <meta name="viewport" content="width=device-width" Initial-scale="1.0">
         <!--stylesheets-->
         <link rel="icon" href="ICONS/1x/logoRodxV2-icon.png" type="image/x-icon">
@@ -11,6 +11,7 @@
         <link rel="stylesheet" href="CSS/style-aside.css" type="text/css">
         <link rel="stylesheet" href="CSS/style-home.css" type="text/css">
         <link rel="stylesheet" href="CSS/style-pesonal-information.css" type="text/css">
+        <link rel="stylesheet" href="CSS/style-projets.css" type="text/css">
         <link rel="stylesheet" href="CSS/style-contact.css" type="text/css">
         <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
         <!--title-->
@@ -43,12 +44,14 @@
                             <p>contacto</p>
                         </li>
                     </ul>
+
                     <div class="copyright">
                         <P>Ⓒcopyright - RODX 2022</P>
                     <div>
                 </nav>
             </section>
         </header>
+        
         <main class="contenido">
            
             <section class="inicio" id="seccioninicio">
@@ -56,6 +59,7 @@
                     <!-- <img id="banner-inicio pc" src="IMG/banner-pc.jpg" alt="Banner-pages"> -->
                     <img id="banner-inicio smartphone" src="IMG/banner-smartphone.jpg" alt="Banner-pages">
                 </div>
+               
                 <div class="informacion-banner">
                     <h1 class="titulo-primario">rodx - portafolio de proyectos</h1>
                     <h2 class="titulo-secundario">Roland Manga</h2>
@@ -66,6 +70,7 @@
             <section class="titulo-seccion titulo-sobre-mi" id="seccionsobremi">
                 <h2 class="titulo-secundario">sobre mi</h2>
             </section>
+
             <section class="Sobre-mi">
                 <div class="cuerpo-seccion">
                     <div class="informacion-personal">
@@ -117,6 +122,7 @@
                                 </div>
                             </div>
                         </div>
+
                         <div class="estudios">
                             <h2 class="titulo-terciario">Estudios</h2>
                             <div class="estudios-carrera">
@@ -125,6 +131,7 @@
                                 <P class="text carrera titulo-carrera">Análisis y desarrollo de sistemas de información</p>
                                 <p class="text carrera institucion-carrera">SENA Centro Industrial de Desarrollo Industrial</p>
                             </div>
+
                             <div class="estudios-carrera">
                                 <h3 class="titulo-cuarto">Certificaciones</h3>
                                 <p class="text certificacion">Fotografia de producto.<p>
@@ -137,27 +144,57 @@
                     </div>
             </section>
 
-            <section class="titulo-seccion">
+            <section class="titulo-seccion titulo-proyectos" id="seccionproyectos">
                 <h2 class="titulo-secundario">proyectos</h2>
-            </section>        
-            <section class="proyectos" id="seccionproyectos">
+            </section>  
+
+            <section class="proyectos">
                 <div class="experiencia-programacion">
-                    <h3 class="titulo-experiencia">
-                        <p class="text experiencia_texto"></p>
-                    </h3>
+                    <h3 class="titulo-cuarto titulo-experiencia">Experiencia</h3>
+                    <p class="text experiencia_texto">aun no cuento con amplia experiencia en desarrollo de aplicaciones tanto web o de escriorio, pero estoy construyendola a partir de los Challenges de Alura Latam y Oracle ONE, a continuacion dejare los links junto con una miniatura de los challenges.</p> 
+                    <br>
+                    <br> 
+                    <p class="text experiencia_texto"> actualmente corrigiendo los enlaces de los challenges por lo cual me disculpo por si los enlaces no rediraccionan </p>
                 </div>
+
                 <div class="proyectos-programacion">
-                    <h3 class="titulo-proyectos">
-                        <p class="text proyectos_texto"></p>
-                    </h3>
+                    <h3 class="titulo-cuarto titulo-proyecto">Proyectos</h3>
+                    <div class="contenedor_challenge" id="challenge-1">
+
+                        <div class="miniatura-challenge">
+                            <figure class="miniatura"><img src="" alt="miniatura Challenge 1"></figure>
+                            <figure class="insignia_Oracle"><img class="insignia" src="ICONS/Insignias-Oracle/cms_files_10224_1644515319BADGE_2-Challenge-1.png" alt="insignia challenge proyecto 1: desencriptador"></figure>
+                        </div> 
+
+                        <div class="informacion-challenge">
+                            <p class="text nombre_challenge">desencriptador de mensajes</p>
+                            <p class="text Descripcion Challenge">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo ipsum, voluptatibus vero excepturi est recusandae rerum officiis delectus dolor repudiandae molestias voluptate aliquam doloremque nostrum soluta omnis? Aut, mollitia excepturi?</p>
+                        </div>
+
+                    </div>
+
+                    <div class="contenedor_challenge" id="challenge-2">
+                    
+                        <div class="miniatura-challenge">
+                            <figure class="miniatura_challenge"><img src="" alt="miniatura Challenge 2"></figure>
+                            <figure class="insignia_Oracle"><img  class="insignia" src="ICONS/Insignias-Oracle/cms_files_10224_1644516322badge-Challenge-2.png" alt="insignia challenge proyecto 2: juego Ahorcado"></figure>
+                        </div>
+                       
+                        <div class="informacion-challenge">
+                            <p class="text nombre_challenge">lorem ipsum</p>
+                            <p class="text Descripcion Challenge">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit eius ducimus maxime in distinctio facilis iusto. Doloremque est blanditiis facere quam facilis? Commodi aut amet placeat cupiditate! Voluptatibus, praesentium iusto.</p>
+                        </div>
+                   
+                    </div>
                 </div>
             </section> 
             
             <section class="titulo-seccion titulo-contacto" id="seccioncontacto">
                 <h2 class="titulo-secundario">Contacto</h2>
             </section>
+
             <section class="contacto">
-                <p class="text">Si tienes alguna pregunta sobre mis servicios, o simplemente quieres saludarme, no dudes en contactarme. A continuación encontra un formulario para ponernos pronto en contacto.</p>
+                <p class="text">Si tienes alguna pregunta sobre mis servicios, o simplemente quieres saludarme, no dudes en contactarme, a continuación encontras un formulario para ponernos pronto en contacto y dando click en el logo de RODX podras ver mi hoja de vida.</p>
 
                 <div class="formulario">
                     <form action="">
@@ -170,10 +207,13 @@
                 </div>
                 
                 <div class="logo-final">
-                    <img class="logoRodx" src="ICONS/1x/logoRodxV2-icon.png" alt="Logo-RODX(wolf)">
+                    <a href="ARCHIVES/Hoja-De-Vida-Roland-Manga.pdf" download="Curriculum-Vitae-RODX">
+                        <img class="logoRodx" src="ICONS/1x/logoRodxV2-icon.png" alt="Logo-RODX(wolf)" title="Descarga aqui la hoja de vida" >
+                    </a>
                     <P class="text">powered by <a href="https://github.com/XerT64Er">@RODX</a></P>
                 </div>
             </section>
+
         </main>
 
         <!-- <script src="JS/switchBanner.js"></script> -->

@@ -1,0 +1,60 @@
+/*  
+    develop and edited by RODX 
+    Ⓒcopyright - RODX 2022
+    css document
+    Style document
+*/
+
+/* --------------- Structure projects --------------- */
+
+.titulo-proyectos{
+    background-color: var(--color-black-2);
+}
+
+.proyectos{
+    background-color: var(--color-black-2);
+    color: white;
+
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.experiencia-programacion{
+    padding: 5%;
+}
+
+.proyectos-programacion{
+    padding: 5%;
+    
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-between;
+}
+
+.titulo-proyecto{
+    width: 100%; 
+    margin: 0 auto;
+    padding: 5%;
+    text-align: center;
+}
+
+.contenedor_challenge{
+    width: 40%;
+    padding: 3%;
+    border: solid var(--color-red-2);
+    border-radius: var(--border-radius-padron);
+}
+
+#challenge-1{
+    margin-left: 2%;
+}
+
+#challenge-2{
+    margin-right: 2%;
+}
+
+.insignia{
+    width: 200px;
+}
