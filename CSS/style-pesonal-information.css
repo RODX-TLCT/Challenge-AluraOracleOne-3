@@ -91,33 +91,11 @@
 }
 
 .progressbar{
+    width: var(--w);
     height: 5px;
     background-color: #910101;
     border-radius: 13px;
-}
-
-.frontend{
-    width: 45%;
-}
-
-.backend, .database{
-    width: 15%;
-}
-
-.liderazgo{
-    width: 85%;
-}
-
-.empatia{
-    width: 90%;
-}
-
-.creatividad{
-    width: 100%;
-}
-
-.trabajo-equipo{
-    width: 70%;
+    animation: progressbarAnimation 2.5s ease-out;
 }
 
 .estudios {
@@ -142,4 +120,9 @@
 
 @media screen and (max-width:450px) {
 
+}
+
+@keyframes progressbarAnimation{
+    0%{width: 0%;}
+    100%{width: var(--w)}
 }
