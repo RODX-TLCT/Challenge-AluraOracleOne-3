@@ -63,6 +63,7 @@ main {
 }
 .titulo-terciario { 
     font-size: 2em;
+    border-bottom: solid #910101 2px;
 }
 .titulo-cuarto {
     font-size: 1.5em; font-style: var(--font-style-subtitles);
